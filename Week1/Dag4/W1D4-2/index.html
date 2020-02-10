@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Practice Event Handlers</title>
+    <style>
+      .blue-background {
+        background-color: blue;
+      }
+      .red-background {
+        background-color: red;
+      }
+    </style>
+  </head>
+
+  <body class="blue-background">
+    <button id="mybutton" type="button" class="btn-alert">Alert Me!</button>
+    <button id="backgroundbutton" type="button" class="btn-cbg">
+      Change Background
+    </button>
+    <script>
+      // const myButton = document.querySelector('button');
+
+      const eventMyButton = function() {
+        const myButton = document.getElementById('mybutton');
+        myButton.addEventListener('click', function(e) {
+          alert('button clicked');
+        });
+      };
+
+      // const eventChangeBackgroundButton = function() {
+      //   const documentBody = document.body;
+      //   const changeBackgroundButton = document.getElementById(
+      //     'backgroundbutton'
+      //   );
+      //   changeBackgroundButton.addEventListener('click', function(e) {
+      //     // alert('backgroundButton clicked');
+      //     documentBody.classList.add('red-background');
+      //   });
+      // };
+
+      const eventToggleBackgroundButton = function() {
+        const documentBody = document.body;
+        const toggleBackgroundButton = document.getElementById(
+          'backgroundbutton'
+        );
+        toggleBackgroundButton.addEventListener('click', function(e) {
+          // alert('Change Background Button clicked');
+          documentBody.classList.toggle('red-background');
+        });
+      };
+
+      document.addEventListener('DOMContentLoaded', function(event) {
+        eventMyButton();
+        // eventChangeBackgroundButton();
+        eventToggleBackgroundButton();
+      });
+    </script>
+  </body>
+</html>
