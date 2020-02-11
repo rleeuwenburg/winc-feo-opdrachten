@@ -228,15 +228,16 @@
 
 // calculateLifeSupply(34, 6);
 
-const favoriteMovie = {
-  title: 'Puff, the magic Dragon',
-  duration: 180,
-  stars: ['Puff', 'Sneazes', 'Robert deNiro']
+const myFavMovie = {
+  title: 'Puff the Magic Dragon',
+  duration: 220,
+  stars: ['Puff', 'Jackie', 'Living Sneezes']
 };
 
-let printMovie = function(movie) {
-  console.log(movie.tile + ' lasts for ' + movie.duration + ' minutes.');
-  let starsString = 'It Stars: ';
+// De oplossing met een for loop
+const printMovie1 = function(movie) {
+  console.log(movie.title + ' lasts for ' + movie.duration + ' minutes');
+  const starsString = 'Stars: ';
   for (let i = 0; i < movie.stars.length; i++) {
     starsString += movie.stars[i];
     if (i != movie.stars.length - 1) {
@@ -245,5 +246,3 @@ let printMovie = function(movie) {
   }
   console.log(starsString);
 };
-
-console.log(printMovie);

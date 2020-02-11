@@ -1,0 +1,30 @@
+body {
+  background-color: lightsteelblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+  width: 70%;
+  margin: auto;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 250%;
+  margin: 25px;
+  color: darkslategray;
+}
+
+h2 {
+  text-align: center;
+  opacity: 0.8;
+}
+
+.review {
+  border: 1px solid dimgray;
+  background-color: lightgray;
+  color: darkslategray;
+  padding: 20px;
+  margin: 20px;
+}
