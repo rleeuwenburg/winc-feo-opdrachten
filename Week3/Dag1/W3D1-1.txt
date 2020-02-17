@@ -1,0 +1,20 @@
+Ping the theguardian.com
+IP = 151.101.193.111
+
+Tracert theguardian.com
+5 Hops
+
+Nameservers
+- Google.com: 
+NS1.GOOGLE.COM (has 12,606 domains)
+NS2.GOOGLE.COM (has 12,606 domains)
+NS3.GOOGLE.COM (has 12,606 domains)
+NS4.GOOGLE.COM (has 12,606 domains)
+
+- Winc Academy
+NS0.TRANSIP.NET (has 644,797 domains)
+NS1.TRANSIP.NL (has 146,611 domains)
+NS2.TRANSIP.EU (has 3,430 domains)
+
+MY IP:
+31.21.234.75, toegewezen door T-MOBILE thuis in Leiden 

@@ -346,15 +346,20 @@ console.log(637263 / 54);
 // assignGrade();
 
 // // Opdracht W1D3-5
-let colors = ['yellow', 'blue', 'red', 'orange'];
-let i = 0;
-while (i != colors.length) {
-  console.log(colors[i]);
-  i++;
-}
+// let colors = ['yellow', 'blue', 'red', 'orange'];
+// let i = 0;
+// while (i != colors.length) {
+//   console.log(colors[i]);
+//   i++;
+// }
 
-for (i = 0; i < colors.length; i++) {
-  console.log(colors[i]);
-}
+// for (i = 0; i < colors.length; i++) {
+//   console.log(colors[i]);
+// }
 
-colors.forEach(element => console.log(element));
+// colors.forEach(element => console.log(element));
+
+// // de while loop is 6 regels, de for loop 3 regels
+// // de forEach method is een one-liner
+// // forEach is makkelijker te begrijpen omdat er geen tussenvariabelen of iterator nodig zijn
+// // daar gebruik je dus forEach voor
