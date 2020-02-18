@@ -1,0 +1,17 @@
+Opdracht 1, GET Request katten
+Statuscode = 200 OK
+Result is een hele lijst aan verschillende kattensoorten
+
+Opdracht 2, Get Request OMDB API
+id in de url?
+Statuscode = 401 Unauthorized
+Result: 
+{
+    "Response": "False",
+    "Error": "No API key provided."
+}
+
+Opdracht 3, is opdracht 2 maar nu met key
+ http://www.omdbapi.com/?i=tt3896198&apikey=896f18d6
+Statuscode = 200 OK
+Result : Guardians of the Galaxy 2
