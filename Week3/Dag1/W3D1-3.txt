@@ -1,0 +1,41 @@
+Winc Academy gebruikt Apache Server
+
+Opdracht 1
+Status 200 OK rechtsboven response
+{
+  "args": {
+    "Content-Type": "application/json"
+  },
+  "data": "{ \"opleiding\":\"Winc Academy\", \"oordeel\":\"is de allerbeste\" }",
+  "files": {},
+  "form": {},
+  "headers": {
+    "Accept": "*/*",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Cache-Control": "no-cache",
+    "Content-Length": "60",
+    "Content-Type": "text/plain",
+    "Host": "httpbin.org",
+    "Postman-Token": "2b1820e0-6564-4c19-b560-6e6a952b3cc8",
+    "User-Agent": "PostmanRuntime/7.22.0",
+    "X-Amzn-Trace-Id": "Root=1-5e4a961b-8101da772e70431ac237889c"
+  },
+  "json": {
+    "oordeel": "is de allerbeste",
+    "opleiding": "Winc Academy"
+  },
+  "origin": "31.21.234.75",
+  "url": "https://httpbin.org/post?Content-Type=application%2Fjson"
+}
+
+Opdracht 2
+HTTP code 404 Not Found
+De url bestaat niet? 
+Delete verb gebruiken op oorspronkelijke url, of dit is een functie waarbij alles al verwijderd is oid? 
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try
+	again.</p>
