@@ -1,0 +1,12 @@
+Flexbox
+
+Wat is het? 
+Flexbox is een set regels in CSS te gebruiken om content te plaatsen of uit te lijnen in een layout. 
+Door de container te definieren als flexbox kunnen de items erin gerangschikt en geplaatst worden. 
+
+Wanneer wel gebruiken? 
+Flexbox is een zogenaamde content-first methode. Dus dit is alleen geschikt indien je de content en de afmetingen ervan reeds kent.
+Verder is flexbox 1 dimensionaal, oftweel je kunt er maar een beperkte layout mee maken. Meerdere rijen en columns tegelijke definieren gaat niet. 
+
+Wanneer niet gebruiken?
+Flexbox is niet bruikbaar wanneer content nog niet duidelijk is, of wanneer een uitgebreidere layout noodzakelijk is. 

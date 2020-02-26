@@ -1,0 +1,13 @@
+CSS Grid
+
+Wat is het? 
+Grid is een set regels in CSS te gebruiken om content te plaatsen of uit te lijnen in een layout. 
+Hierin wordt de complete pagina verdeeld in rijen en colums waarbij van elk de afmetingen ten op zichte van elkaar relatief ingevuld kunnen worden.
+Daarnaast is het mogelijk om de paginaindeling schemaatisch weer te geven.  
+
+Wanneer wel gebruiken? 
+Grid is een zogenaamde layout-first methode. Dus dit is vooral geschikt wanneer de layout van een pagina een vaste structuur dient te hebben en/of wat complexer is dan een aantal eenvoudige blokken. 
+Verder is het ook twee dimensionaal, dus de content-containers kunnen zowel verticaal als horizontaal geordend worden.  
+
+Wanneer niet gebruiken?
+Bij 'eenvoudige' layout waar content bekend is. In die gevallen is flexbox de betere optie.

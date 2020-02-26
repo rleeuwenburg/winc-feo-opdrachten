@@ -1,0 +1,47 @@
+antwoorden Challenges Khan
+
+-  Quizje 4 uit 4
+
+- Challenge1
+
+h1, h2 en h1:hover, h2:hover
+
+ 
+
+- Challenge2
+
+table .emperor {
+background-color: green;
+}
+
+table .reign {
+background-color: red;
+}
+
+ 
+
+- Challenge3
+
+h2.metal {
+background-color: red;
+color: white;
+}
+
+
+h2.non-metal {
+background-color: blue;
+color: white;
+}
+
+h2.semi-metal {
+background-color: purple;
+color: white;
+}
+
+ 
+
+- Challenge4
+
+<img class="gold-frame image-medium"  x3
+
+ 

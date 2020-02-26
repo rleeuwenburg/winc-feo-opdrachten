@@ -363,3 +363,48 @@ console.log(637263 / 54);
 // // de forEach method is een one-liner
 // // forEach is makkelijker te begrijpen omdat er geen tussenvariabelen of iterator nodig zijn
 // // daar gebruik je dus forEach voor
+
+// // In chrome devtools console:
+// document.querySelector('#first-section > p').innerHTML = 'hallo, werkt dit?';
+// document.body.getElementsByTagName('p')[0].innerHTML = 'En nu?';
+// // beiden werken
+// const firstSection = document.getElementById('first-section');
+// console.log(firstSection);
+// const paragraphs = document.getElementsByClassName('paragraph');
+// console.log(paragraphs);
+// // Geeft een HTML collection; die lijkt op een array maar is het niet.
+
+const clickAlertBtn = function() {
+  const alertBtn = document.getElementById('mybutton');
+  alertBtn.addEventListener('click', function() {
+    alert('button clicked');
+  });
+};
+
+// const changeBackground = function() {
+//   const backgroundBtn = document.getElementById('backgroundbutton');
+//   backgroundBtn.addEventListener('click', () => {
+//     document.body.classList.add('red-background');
+//   });
+// };
+
+// const toggleBackground = function() {
+//   const backgroundBtn = document.getElementById('backgroundbutton');
+//   backgroundBtn.addEventListener('click', () => {
+//     document.body.classList.toggle('red-background');
+//   });
+// };
+
+// const orangeBackground = function() {
+//   const orangeBtn = document.getElementById('orangebutton');
+//   orangeBtn.addEventListener('click', () => {
+//     document.body.style.backgroundColor = 'orange';
+//   });
+// };
+
+// document.addEventListener('DOMContentLoaded', event => {
+//   clickAlertBtn();
+//   // changeBackground();
+//   toggleBackground();
+//   orangeBackground();
+// });

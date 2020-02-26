@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:700);
+
+body {
+  background: #231f20;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  font-family: 'Oswald';
+  font-weight: 700;
+  position: relative;
+  margin: 30px auto;
+  text-transform: uppercase;
+  width: 550px;
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+}
+
+ul {
+  background-color: #4a90e2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  border: 1px solid white;
+  padding: 5px;
+  margin: 0;
+}
+
+li {
+  display: block;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1::before,
+h1::after {
+  background-color: #4a90e2;
+  content: '';
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+}
+
+h1::before {
+  border-radius: 15px 0px 0px 15px;
+  margin-left: -40px;
+  margin-top: 10px;
+}
+
+h1::after {
+  border-radius: 0px 15px 15px 0px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+a:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+a:active {
+  color: red;
+  font-style: italic;
+}
+
+a:visited {
+  color: yellow;
+  /* linetrough kan niet ivm security*/
+}
+
+input:focus {
+  color: green;
+  font-size: 20px;
+  border: 2px solid aqua;
+}
+
+.currentPage {
+  background-color: slategray;
+}
+
+li:hover {
+  background-color: lightblue;
+}
