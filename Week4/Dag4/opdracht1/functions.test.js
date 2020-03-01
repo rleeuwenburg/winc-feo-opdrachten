@@ -10,9 +10,9 @@ const functions = require('./functions.js');
 //   expect(functions.isNull()).toBeNull();
 // });
 
-// test('checkValue Should be falsy when argument is undefined', () => {
-//   expect(functions.checkValue()).toBeFalsy();
-// });
+test('checkValue Should be falsy when argument is undefined', () => {
+  expect(functions.checkValue(x)).toBeFalsy();
+});
 // invullen checkValue(x) geeft test fail, omdat argument dan wel is defined. 0 geeft pass want is falsy value.
 
 // test('User should be Brad Traversy object', () => {
