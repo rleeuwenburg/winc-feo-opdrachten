@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Set the size of the div element that contains the map */
+      #map {
+        height: 400px; /* The height is 400 pixels */
+        width: 100%; /* The width is the width of the web page */
+      }
+    </style>
+    <title>w3d4-1</title>
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const Winc = { lat: 52.378361, lng: 4.85471 };
+        // The map, centered at Winc
+        const map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 8,
+          center: Winc
+        });
+        // The marker, positioned at Winc
+        const marker = new google.maps.Marker({ position: Winc, map: map });
+        const marjolein = { lat: -25.344, lng: 131.036 };
+        const niels = { lat: -25.344, lng: 131.036 };
+        const judith = { lat: 52.459, lng: 5.035 };
+        const jeroen = { lat: 53.164, lng: 6.389 };
+        const patrick = { lat: 52.661, lng: 6.291 };
+        const yannick = { lat: 50.866, lng: 6.043 };
+        const dilara = { lat: 51.984, lng: 5.895 };
+        const geeske = { lat: 52.222, lng: 6.891 };
+        const raimon = { lat: 51.888, lng: 4.386 };
+        const kim = { lat: 51.987, lng: 5.635 };
+        const tim = { lat: 52.658, lng: 4.839 };
+        const ruben = { lat: 52.371, lng: 5.229 };
+        const sven = { lat: 51.865, lng: 5.048 };
+
+        const image = {
+          url: './winc-round.png'
+        };
+
+        const createMarker = function(personCoordinates) {
+          const markerStudent = new google.maps.Marker({
+            position: personCoordinates,
+            map: map,
+            icon: image
+          });
+          return markerStudent;
+        };
+
+        const studentCoordinates = [
+          marjolein,
+          niels,
+          judith,
+          jeroen,
+          patrick,
+          yannick,
+          dilara,
+          geeske,
+          raimon,
+          kim,
+          tim,
+          ruben,
+          sven
+        ];
+
+        studentCoordinates.forEach(student => {
+          createMarker(student);
+        });
+      }
+    </script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"
+    ></script>
+  </body>
+</html>
